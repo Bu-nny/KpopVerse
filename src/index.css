@@ -1,0 +1,30 @@
+
+body {
+  margin: 0;
+  font-family: 'Helvetica Neue', sans-serif;
+  background: linear-gradient(to bottom right, #f3e8ff, #e0c3fc);
+  color: #222;
+  transition: background 0.3s ease;
+}
+
+.dark body {
+  background: #111;
+  color: #eee;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background: #ffffff88;
+  backdrop-filter: blur(10px);
+  border-bottom: 1px solid #ddd;
+}
+
+button {
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+}
